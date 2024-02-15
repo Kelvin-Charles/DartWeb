@@ -1,14 +1,71 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-html, body {
-  width: 100%;
-  height: 100%;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gold;
 }
 
-#output {
-  padding: 20px;
-  text-align: center;
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
 }
+
+h2 {
+  text-align: center;
+  color: #333333;
+
+}
+
+form {
+  display: flex;
+  flex-direction:column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #555555;
+  font-size: 14px;
+}
+
+input, select {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: blue;
+}
+
+.input-group div {
+  width: 48%;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border: none;
+  border-radius: 10%;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
